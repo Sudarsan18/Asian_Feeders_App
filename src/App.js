@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "./MasterComponent/Header";
 import Footer from "./MasterComponent/Footer";
+import Routing from "./MasterComponent/Routing";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         className="relative top-[60px] w-full overflow-auto"
         style={{ height: "calc(100% - 60px)" }}
       >
+        <Routing />
         <Footer />
       </div>
 
