@@ -9,7 +9,7 @@ const Routing = () => {
         // <BrowserRouter>
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/about-us" element={<AboutUs />} />      
       {/* <Route path="dashboard" element={<Dashboard />}>
         <Route index element={<RecentActivity />} />
         <Route path="project/:id" element={<Project />} />

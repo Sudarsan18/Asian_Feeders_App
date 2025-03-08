@@ -45,21 +45,21 @@ export default function Header() {
   };
 
   return (
-    <div className="fixed z-10 w-full bg-[#fff] p-3">
-      <div className="mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
-        <div className="flex h-24 flex-row items-center justify-between xl:p-3 2xl:py-3">
+    <div className="fixed z-10 w-full bg-[#f1f1f1] p-2">
+      <div className="mx-auto max-w-screen-2xl lg:px-5 md:px-10">
+        <div className="flex h-24 flex-row items-center justify-between">
           <div className="h-[90px] md:h-24">
             <NavLink to="/">
               <img
                 src={Logo}
                 alt="logo"
-                className="mt-1 h-[5.5rem] w-36 sm:h-[5.5rem] sm:w-auto"
+                className="h-[5.5rem] w-36 sm:h-[5.5rem] sm:w-auto"
               />
             </NavLink>
           </div>
 
           <div className="hidden lg:flex lg:gap-3">
-            <NavLink href="/">
+            <NavLink to="/">
               <Button
                 className="button-text-decor"
                 htmlColor="#0a64bc"
@@ -69,7 +69,7 @@ export default function Header() {
                 HOME
               </Button>
             </NavLink>
-            <NavLink href="/about-us">
+            <NavLink to="/about-us">
               <Button
                 className="button-text-decor"
                 startIcon={<Users size={16} color="#e6873c" />}
@@ -77,7 +77,7 @@ export default function Header() {
                 About Us
               </Button>
             </NavLink>
-            <NavLink href="/services">
+            <NavLink to="/services">
               <Button
                 className="button-text-decor"
                 startIcon={<Settings size={16} color="#e6873c" />}
@@ -86,7 +86,7 @@ export default function Header() {
               </Button>
             </NavLink>
 
-            <NavLink href="/contact-us">
+            <NavLink to="/contact-us">
               <Button
                 className="button-text-decor"
                 startIcon={<PhoneCall size={16} color="#e6873c" />}
@@ -166,7 +166,7 @@ export default function Header() {
                 }}
               >
                 {" "}
-                <NavLink href="/">
+                <NavLink to="/">
                   <Button
                     className="button-text-decor"
                     htmlColor="#0a64bc"
@@ -184,7 +184,7 @@ export default function Header() {
                 }}
               >
                 {" "}
-                <NavLink href="/about-us">
+                <NavLink to="/about-us">
                   <Button
                     className="button-text-decor"
                     startIcon={<Users size={16} color="#e6873c" />}
@@ -200,7 +200,7 @@ export default function Header() {
                 }}
               >
                 {" "}
-                <NavLink href="/services">
+                <NavLink to="/services">
                   <Button
                     className="button-text-decor"
                     startIcon={<Settings size={16} color="#e6873c" />}
