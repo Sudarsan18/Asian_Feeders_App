@@ -1,4 +1,5 @@
-import Logo from "../Assets/Logo.png";
+// import Logo from "../Assets/Logo.png";
+import Logo from "../Assets/Asian_Feeders_logo .png";
 import {
   Box,
   Button,
@@ -18,6 +19,9 @@ import {
   Users,
   ChevronDown,
   ChevronUp,
+  House,
+  Settings,
+  PhoneCall,
 } from "lucide-react";
 import { useState } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -43,13 +47,13 @@ export default function Header() {
   return (
     <div className="fixed z-10 w-full bg-[#fff] p-3">
       <div className="mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
-        <div className="flex h-9 flex-row items-center justify-between xl:p-3 2xl:py-3">
-          <div className="md:h-12">
-            <NavLink to="/se">
+        <div className="flex h-24 flex-row items-center justify-between xl:p-3 2xl:py-3">
+          <div className="h-[90px] md:h-24">
+            <NavLink to="/">
               <img
                 src={Logo}
                 alt="logo"
-                className="mt-1 h-6 w-28 sm:h-10 sm:w-auto"
+                className="mt-1 h-[5.5rem] w-36 sm:h-[5.5rem] sm:w-auto"
               />
             </NavLink>
           </div>
@@ -58,41 +62,39 @@ export default function Header() {
             <NavLink href="/">
               <Button
                 className="button-text-decor"
-                startIcon={<IndianRupee size={15} color="#1976d2" />}
+                htmlColor="#0a64bc"
+                startIcon={<House size={15} color="#e6873c" />}
                 // {<CurrencyRupeeIcon />}
               >
-                Mutual Funds
-              </Button>
-            </NavLink>
-
-            <NavLink href="/health-insurance">
-              <Button
-                className="button-text-decor"
-                startIcon={<HeartPulse size={16} color="#1976d2" />}
-                // {<HealthAndSafetyIcon />}
-              >
-                Health Insurance
-              </Button>
-            </NavLink>
-
-            <NavLink href="/term-insurance">
-              <Button
-                className="button-text-decor"
-                startIcon={<HandHeart size={16} color="#1976d2" />}
-                // {<VolunteerActivismIcon />}
-              >
-                Term Insurance
+                HOME
               </Button>
             </NavLink>
             <NavLink href="/about-us">
               <Button
                 className="button-text-decor"
-                startIcon={<Users size={16} color="#1976d2" />}
-                // {<GroupsIcon />}
+                startIcon={<Users size={16} color="#e6873c" />}
               >
                 About Us
               </Button>
             </NavLink>
+            <NavLink href="/services">
+              <Button
+                className="button-text-decor"
+                startIcon={<Settings size={16} color="#e6873c" />}
+              >
+                Services
+              </Button>
+            </NavLink>
+
+            <NavLink href="/contact-us">
+              <Button
+                className="button-text-decor"
+                startIcon={<PhoneCall size={16} color="#e6873c" />}
+              >
+                Contact Us
+              </Button>
+            </NavLink>
+
             {/* <Button
               endIcon={<ChevronDown size={16} color="#1976d2" />}
               aria-owns={anchorEl ? "basic-menu" : undefined}
@@ -117,7 +119,7 @@ export default function Header() {
                 </MenuItem>
               </Link>
             </Menu> */}
-            <div
+            {/* <div
               className="menu relative"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
@@ -129,7 +131,7 @@ export default function Header() {
                 More
               </Button>
               {isDropdownVisible && <DropdownMenu />}
-            </div>
+            </div> */}
             {/* <BookFreeConsultation size={"medium"} /> */}
           </div>
           <div className="block lg:hidden">
@@ -164,13 +166,14 @@ export default function Header() {
                 }}
               >
                 {" "}
-                <NavLink to="/">
+                <NavLink href="/">
                   <Button
                     className="button-text-decor"
-                    startIcon={<IndianRupee size={15} color="#1976d2" />}
+                    htmlColor="#0a64bc"
+                    startIcon={<House size={15} color="#e6873c" />}
                     // {<CurrencyRupeeIcon />}
                   >
-                    Mutual Funds
+                    HOME
                   </Button>
                 </NavLink>
               </MenuItem>
@@ -181,51 +184,47 @@ export default function Header() {
                 }}
               >
                 {" "}
-                <NavLink to="/health-insurance">
+                <NavLink href="/about-us">
                   <Button
                     className="button-text-decor"
-                    startIcon={<HeartPulse size={16} color="#1976d2" />}
-                    // {<HealthAndSafetyIcon />}
-                  >
-                    Health Insurance
-                  </Button>
-                </NavLink>
-              </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  toggleDrawer(false);
-                  setMoreSelected(false);
-                }}
-              >
-                {" "}
-                <NavLink to="/term-insurance">
-                  <Button
-                    className="button-text-decor"
-                    startIcon={<HandHeart size={16} color="#1976d2" />}
-                    // {<VolunteerActivismIcon />}
-                  >
-                    Term Insurance
-                  </Button>
-                </NavLink>
-              </MenuItem>
-              <MenuItem
-                onClick={() => {
-                  toggleDrawer(false);
-                  setMoreSelected(false);
-                }}
-              >
-                <NavLink to="/about-us">
-                  <Button
-                    className="button-text-decor"
-                    startIcon={<Users size={16} color="#1976d2" />}
-                    // {<GroupsIcon />}
+                    startIcon={<Users size={16} color="#e6873c" />}
                   >
                     About Us
                   </Button>
                 </NavLink>
               </MenuItem>
-              <MenuItem onClick={() => toggleDrawer(true)}>
-                {/* <Link href="/about-us"> */}
+              <MenuItem
+                onClick={() => {
+                  toggleDrawer(false);
+                  setMoreSelected(false);
+                }}
+              >
+                {" "}
+                <NavLink href="/services">
+                  <Button
+                    className="button-text-decor"
+                    startIcon={<Settings size={16} color="#e6873c" />}
+                  >
+                    Services
+                  </Button>
+                </NavLink>
+              </MenuItem>
+              <MenuItem
+                onClick={() => {
+                  toggleDrawer(false);
+                  setMoreSelected(false);
+                }}
+              >
+                <NavLink to="/contact-us">
+                  <Button
+                    className="button-text-decor"
+                    startIcon={<PhoneCall size={16} color="#e6873c" />}
+                  >
+                    Contact us
+                  </Button>
+                </NavLink>
+              </MenuItem>
+              {/* <MenuItem onClick={() => toggleDrawer(true)}>
                 <Button
                   className="button-text-decor"
                   endIcon={
@@ -242,9 +241,8 @@ export default function Header() {
                 >
                   More
                 </Button>
-              </MenuItem>
-              {/* </Link> */}
-              {moreSelected && (
+              </MenuItem> */}
+              {/* {moreSelected && (
                 <MenuItem
                   onClick={() => {
                     toggleDrawer(false);
@@ -260,7 +258,7 @@ export default function Header() {
                     </Button>
                   </NavLink>{" "}
                 </MenuItem>
-              )}
+              )} */}
             </List>
           </Box>
         </Drawer>
