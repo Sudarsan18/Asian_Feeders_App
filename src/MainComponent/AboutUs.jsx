@@ -1,5 +1,4 @@
 import React from "react";
-import aboutus from "../Assets/about-us.png";
 
 const AboutUs = () => {
   return (
@@ -21,7 +20,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="relative col-span-6 mx-auto flex size-84 items-center justify-center max-lg:order-1 lg:w-[700px] lg:h-[420px]">
-          <img src={aboutus} alt="TermInsurance" />
+          <img src={"/Assets/about-us.png"} alt="TermInsurance" />
         </div>
       </div>
     </div>

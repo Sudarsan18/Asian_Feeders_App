@@ -1,22 +1,19 @@
-// import { Home, Route } from 'lucide-react';
-import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Home from '../MainComponent/Home';
-import AboutUs from '../MainComponent/AboutUs';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Home from "../MainComponent/Home";
+import AboutUs from "../MainComponent/AboutUs";
+import ContactUs from "../MainComponent/ContactUs";
+import Services from "../MainComponent/Services";
 
 const Routing = () => {
-    return (
-        // <BrowserRouter>
+  return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<AboutUs />} />      
-      {/* <Route path="dashboard" element={<Dashboard />}>
-        <Route index element={<RecentActivity />} />
-        <Route path="project/:id" element={<Project />} />
-      </Route> */}
+      <Route path="/about-us" element={<AboutUs />} />
+      <Route path="/contact-us" element={<ContactUs />} />
+      <Route path="/about-us" element={<Services />} />
     </Routes>
-//   </BrowserRouter>
-    );
+  );
 };
 
 export default Routing;

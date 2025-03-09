@@ -1,5 +1,3 @@
-// import Logo from "../Assets/Logo.png";
-import Logo from "../Assets/Asian_Feeders_logo .png";
 import {
   Box,
   Button,
@@ -51,7 +49,7 @@ export default function Header() {
           <div className="h-[90px] md:h-24">
             <NavLink to="/">
               <img
-                src={Logo}
+                src={"/Assets/Asian_Feeders_logo .png"}
                 alt="logo"
                 className="h-[5.5rem] w-36 sm:h-[5.5rem] sm:w-auto"
               />
@@ -64,7 +62,6 @@ export default function Header() {
                 className="button-text-decor"
                 htmlColor="#0a64bc"
                 startIcon={<House size={15} color="#e6873c" />}
-                // {<CurrencyRupeeIcon />}
               >
                 HOME
               </Button>
