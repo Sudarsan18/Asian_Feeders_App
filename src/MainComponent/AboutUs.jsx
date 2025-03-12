@@ -6,9 +6,9 @@ const AboutUs = () => {
       <div className="grid min-h-[620px] w-full grid-cols-6 flex-row pb-10 pt-4 md:py-20 lg:grid-cols-12">
         <div className="col-span-6 flex flex-col justify-center max-lg:order-2 max-lg:mt-10">
           <div className="font-bold text-primary">
-            <p className="text-2xl lg:text-6xl text-[#1c6fc1]">About Us</p>
+            <p className="text-3xl lg:text-6xl text-[#1c6fc1]">About Us</p>
           </div>
-          <div className="mb-10 mt-4 text-sm leading-tight md:text-lg">
+          <div className="mb-10 mt-4 text-sm md:text-lg shadow-xl p-4 rounded-lg bg-slate-100 text-justify transform transition duration-300 hover:scale-110">
             Established in 2024, <span className="text-[#1c6fc1] font-semibold text-xl">ASIAN</span> <span className="font-semibold text-xl text-[#e6883e]">FEEDERS</span> specialises in designing and
             manufacturing high-quality vibratory bowl feeders, special-purpose
             machines, and automation solutions. Our dedicated team of experts is

@@ -7,22 +7,25 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <div className="bg-gray-200 mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
+    <div className="w-full bg-gray-200">
+<div className=" mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
       <div className="flex items-start justify-around py-20 max-lg:flex-col">
         <div>
+          <NavLink to="/">
           <p className="text-[#1c6fc1] font-bold">
             ASSIAN <span className="text-[#e6883e]">FEEDERS</span>
           </p>
+          </NavLink>
           <div className="mt-4 flex gap-4">
             <a
-              href="https://www.facebook.com/growthlinkindia"
+              // href="https://www.facebook.com/growthlinkindia"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FacebookOutlinedIcon className="cursor-pointer text-2xl hover:text-primary" />
+              <FacebookOutlinedIcon className="cursor-pointer text-2xl hover:text-blue-600" />
             </a>
             <a
-              href="https://instagram.com/growth_link_"
+              // href="https://instagram.com/growth_link_"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -30,22 +33,22 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://www.linkedin.com/company/growth-link-india"
+              // href="https://www.linkedin.com/company/growth-link-india"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <LinkedInIcon className="cursor-pointer text-2xl hover:text-primary" />
+              <LinkedInIcon className="cursor-pointer text-2xl hover:hover:text-blue-600" />
             </a>
 
             <a
-              href="https://x.com/growth_link"
+              // href="https://x.com/growth_link"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <XIcon className="cursor-pointer text-2xl hover:text-primary" />
+              <XIcon className="cursor-pointer text-2xl hover:hover:text-blue-600" />
             </a>
             <a
-              href="https://www.youtube.com/@growth_link"
+              // href="https://www.youtube.com/@growth_link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,12 +71,12 @@ export default function Footer() {
                     About Us
                   </li>
                 </NavLink>
-                <NavLink href="/services">
+                <NavLink to="/services">
                   <li className="cursor-pointer font-medium text-gray-500 hover:text-primary">
                     Services
                   </li>
                 </NavLink>
-                <NavLink href="/contact">
+                <NavLink to="/contact-us">
                   <li className="cursor-pointer font-medium text-gray-500 hover:text-primary">
                     Contact
                   </li>
@@ -112,17 +115,17 @@ export default function Footer() {
             <div>
               <p className="text-xl font-bold text-gray-800">Contact Us</p>
               <ul className="mt-4 flex flex-col gap-1.5">
-                <NavLink href="https://wa.me/+918682825454">
+                <NavLink href="https://wa.me/+97010361660">
                   <li className="cursor-pointer font-medium text-gray-500 hover:text-primary">
                     WhatsApp - Instant chat
                   </li>
                 </NavLink>
-                <NavLink href="/book-consultation">
+                {/* <NavLink href="/book-consultation">
                   <li className="cursor-pointer font-medium text-gray-500 hover:text-primary">
                     Book convenient time
                   </li>
-                </NavLink>
-                <NavLink href="mailto:info@growthlink.co.in">
+                </NavLink> */}
+                <NavLink href="mailto:asianfeeders@gmail.com">
                   <li className="cursor-pointer font-medium text-gray-500 hover:text-primary">
                     Email us
                   </li>
@@ -142,5 +145,7 @@ export default function Footer() {
         </p>
       </div>
     </div>
+    </div>
+    
   );
 }
