@@ -40,12 +40,10 @@ const Home = () => {
                   style={{ width: "600px" }}
                 ></img>
                 <div className="p-2 text-center font-medium flex justify-center items-center content-center h-12">
-                  {" "}
                   {each.name}
                 </div>
               </div>
               </NavLink>
-              
             ))}
           </div>
         </div>
