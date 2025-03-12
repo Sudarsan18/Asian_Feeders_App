@@ -35,7 +35,7 @@ const Services = () => {
       <div className="w-full bg-slate-100 py-10 flex min-h-140">
         <div className="mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
           <div className="flex grid-cols-6 flex-col items-center justify-center gap-14 lg:grid lg:grid-cols-12 lg:gap-20">
-            <div className="col-span-6 flex h-48 w-88 flex-col justify-center items-center md:h-72 md:w-[50rem]">
+            <div className="col-span-6 flex h-full w-full flex-col justify-center items-center md:h-72 md:w-[50rem]">
               <p className="text-center text-2xl font-bold md:text-4xl text-[#e6873c] mb-5 xl:hidden block">
                 Vibratory Bowl Feeders
               </p>
@@ -80,7 +80,7 @@ const Services = () => {
                 crucial
               </div>
             </div>
-            <div className="col-span-6 flex h-44 w-96 flex-col justify-center items-center max-lg:order-1 md:h-72 md:w-[43rem]">
+            <div className="col-span-6 flex h-full w-full flex-col justify-center items-center max-lg:order-1 md:h-72 md:w-[43rem]">
               <p className="text-center text-2xl font-bold md:text-4xl text-[#e6873c] mb-5 xl:hidden block">
                 Linear Feeder
               </p>
@@ -96,7 +96,7 @@ const Services = () => {
       <div className="w-full bg-slate-100 py-10 flex min-h-140">
         <div className="mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
           <div className="flex grid-cols-6 flex-col items-center justify-center gap-14 lg:grid lg:grid-cols-12 lg:gap-20">
-            <div className="col-span-6 flex h-48 w-88 flex-col justify-center items-center md:h-72 md:w-[39rem]">
+            <div className="col-span-6 flex h-full w-full flex-col justify-center items-center md:h-72 md:w-[39rem]">
               <p className="text-center text-2xl font-bold md:text-4xl text-[#e6873c] mb-5 xl:hidden block">
                 Step Feeder
               </p>
@@ -143,7 +143,7 @@ const Services = () => {
                 enabling faster and more reliable output.
               </div>
             </div>
-            <div className="col-span-6 flex h-44 w-88 flex-col justify-center items-center max-lg:order-1 md:h-72 md:w-[43rem]">
+            <div className="col-span-6 flex h-full w-full flex-col justify-center items-center max-lg:order-1 md:h-72 md:w-[43rem]">
             <p className="text-center text-2xl font-bold md:text-4xl text-[#e6873c] mb-5 xl:hidden block">
             Automation / Special Purpose Machines
               </p>
