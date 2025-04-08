@@ -10,21 +10,19 @@ const Services = () => {
               <p className="text-3xl lg:text-6xl text-[#1c6fc1]">Services</p>
             </div>
             <div className="mb-10 mt-4 text-sm md:text-lg shadow-xl p-4 rounded-lg bg-slate-100 text-justify transform transition duration-300 hover:scale-110">
-              Established in 2024,{" "}
+              At{" "}
               <span className="text-[#1c6fc1] font-semibold text-xl">
                 ASIAN
               </span>{" "}
               <span className="font-semibold text-xl text-[#e6883e]">
                 FEEDERS
               </span>{" "}
-              specialises in designing and manufacturing high-quality vibratory
-              bowl feeders, special-purpose machines, and automation solutions.
-              Our dedicated team of experts is committed to innovation and
-              excellence, ensuring that our products meet the highest
-              performance and reliability standards. We strive to provide
-              tailored solutions that enhance efficiency and productivity for
-              our clients, building long-lasting relationships based on trust
-              and mutual success.
+              we specialize in providing cutting-edge automation solutions
+              tailored to meet the unique needs of your business. Our
+              comprehensive range of services helps streamline operations,
+              increase efficiency, and enhance productivity. From custom-built
+              systems to full integration, we provide end-to-end automation
+              services that drive success..
             </div>
           </div>
           <div className="relative col-span-6 mx-auto flex size-84 items-center justify-center max-lg:order-1 lg:w-[700px] lg:h-[420px]">
@@ -144,8 +142,8 @@ const Services = () => {
               </div>
             </div>
             <div className="col-span-6 flex h-full w-full flex-col justify-center items-center max-lg:order-1 md:h-72 md:w-[43rem]">
-            <p className="text-center text-2xl font-bold md:text-4xl text-[#e6873c] mb-5 xl:hidden block">
-            Automation / Special Purpose Machines
+              <p className="text-center text-2xl font-bold md:text-4xl text-[#e6873c] mb-5 xl:hidden block">
+                Automation / Special Purpose Machines
               </p>
               <img
                 src={"/Assets/Automation.jpg"}

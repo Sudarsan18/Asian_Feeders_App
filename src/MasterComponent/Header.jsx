@@ -43,7 +43,7 @@ export default function Header() {
   };
 
   return (
-    <div className="fixed z-10 w-full bg-[#f1f1f1] p-2">
+    <div className="fixed z-10 w-full bg-[#f1f1f1]">
       <div className="mx-auto max-w-screen-2xl lg:px-5 md:px-10">
         <div className="flex h-24 flex-row items-center justify-between">
           <div className="h-[90px] md:h-24">

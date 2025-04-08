@@ -13,7 +13,7 @@ export default function Footer() {
         <div>
           <NavLink to="/">
           <p className="text-[#1c6fc1] font-bold">
-            ASSIAN <span className="text-[#e6883e]">FEEDERS</span>
+            ASIAN <span className="text-[#e6883e]">FEEDERS</span>
           </p>
           </NavLink>
           <div className="mt-4 flex gap-4">
