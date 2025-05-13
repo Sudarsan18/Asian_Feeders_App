@@ -1,13 +1,12 @@
 import { Mail, MapPin, PhoneCall } from "lucide-react";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import React from "react";
 
 const ContactUs = () => {
   const phoneNumber = "+917010361660";
   const email = "asianfeeders@gmail.com";
   const message = "Hello Asian Feeders Team !";
   const mapLink =
-    "https://www.google.com/maps/place/Palavanthangal/@12.9901151,80.1845195,17.14z/data=!4m14!1m7!3m6!1s0x3a5260aadd0ffff7:0xeaa5044ed18c1f57!2sPalavanthangal!8m2!3d12.9901799!4d80.1868166!16s%2Fg%2F1tgcwh0y!3m5!1s0x3a5260aadd0ffff7:0xeaa5044ed18c1f57!8m2!3d12.9901799!4d80.1868166!16s%2Fg%2F1tgcwh0y?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D";
+    "https://www.google.com/maps/place/11%C2%B006'29.4%22N+76%C2%B057'23.9%22E/@11.108156,76.9540671,17z/data=!3m1!4b1!4m4!3m3!8m2!3d11.108156!4d76.956642?entry=ttu&g_ep=EgoyMDI1MDUxMS4wIKXMDSoASAFQAw%3D%3D";
   const address1 =
     "D.No. 13B/4, SF.No.2/387, ST-1, South Garden, Near cardwell spinning mills, sengalipalayam, Coimbatore - 641022";
 

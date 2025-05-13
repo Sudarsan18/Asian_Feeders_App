@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutUs = () => {
   return (
     <div className="mx-auto max-w-screen-2xl px-5 md:px-10 lg:px-20">
