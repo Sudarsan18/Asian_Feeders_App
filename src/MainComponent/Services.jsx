@@ -1,5 +1,3 @@
-import React from "react";
-
 const Services = () => {
   return (
     <>
@@ -26,7 +24,7 @@ const Services = () => {
             </div>
           </div>
           <div className="relative col-span-6 mx-auto flex size-84 items-center justify-center max-lg:order-1 lg:w-[700px] lg:h-[420px]">
-            <img src={"/Assets/services.png"} alt="TermInsurance" />
+            <img src={"/Assets/services.png"} alt="Services" />
           </div>
         </div>
       </div>

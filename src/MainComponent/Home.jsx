@@ -1,4 +1,3 @@
-import React from "react";
 import { services } from "../Common/CommonConstant";
 import { NavLink } from "react-router-dom";
 
@@ -22,7 +21,7 @@ const Home = () => {
             {/* <BookFreeConsultation size={"large"} /> */}
           </div>
           <div className="relative col-span-6 mx-auto flex size-84 items-center justify-center max-lg:order-1 lg:w-[650px] lg:h-[500px]">
-            <img src={"/Assets/Home.png"} alt="why_mutual_funds"></img>
+            <img src={"/Assets/Home.png"} alt="why_Asian_Feeders"></img>
           </div>
         </div>
       </div>
@@ -36,7 +35,7 @@ const Home = () => {
                 <img
                   src={each.image}
                   className="h-4/5"
-                  alt="why_mutual_funds"
+                  alt="Feeders"
                   style={{ width: "600px" }}
                 ></img>
                 <div className="p-2 text-center font-medium flex justify-center items-center content-center h-12">

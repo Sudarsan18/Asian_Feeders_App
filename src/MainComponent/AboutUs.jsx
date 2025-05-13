@@ -31,21 +31,21 @@ const AboutUs = () => {
           <div>
             <img
               src={"/Assets/leo-taps.png"}
-              alt="about us"
+              alt="leo taps"
               className="h-56 w-56"
             />
           </div>
           <div>
             <img
               src={"/Assets/logo.png"}
-              alt="about us"
+              alt="cdce"
               className="h-56 w-56"
             />
           </div>
           <div>
             <img
               src={"/Assets/TITAN.NS_BIG-87a80b37.png"}
-              alt="about us"
+              alt="titan"
               className="h-56 w-56"
             />
           </div>

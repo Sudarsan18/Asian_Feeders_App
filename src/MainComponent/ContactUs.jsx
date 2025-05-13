@@ -128,7 +128,7 @@ const ContactUs = () => {
           </div>
         </div>
         <div className="relative col-span-6 mx-auto flex size-84 items-center justify-center max-lg:order-1 lg:w-[560px] lg:h-[500px]">
-          <img src={"/Assets/contact_us.png"} alt="why_mutual_funds"></img>
+          <img src={"/Assets/contact_us.png"} alt="why_Asian_Feeders"></img>
         </div>
       </div>
     </div>
